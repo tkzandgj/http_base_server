@@ -7,9 +7,6 @@ import java.util.List;
  */
 public class StringUtil {
 
-    public StringUtil() {
-    }
-
     public static String nullToEmpty(String obj) {
         return obj == null ? "" : obj;
     }
